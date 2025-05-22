@@ -4,7 +4,7 @@ class DataService {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         if (userId === 1) {
-          resolve({ id: 1, name: "Alice" });
+          resolve({ id: 1, name: "Hayan" });
         } else {
           reject(new Error("User not found"));
         }
